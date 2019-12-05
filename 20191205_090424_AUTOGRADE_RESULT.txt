@@ -1,0 +1,227 @@
+File does not compile!
+CompilationOutput: 
+FullTestProject5.java:429: error: cannot find symbol
+            io.DocSource ds = new io.FileDocSource(FullTestProject5.pathToFolder);
+                                    ^
+  symbol:   class FileDocSource
+  location: package io
+FullTestProject5.java:451: error: cannot find symbol
+            io.DocSource userDs = new io.FileDocSource(FullTestProject5.pathToFolder);
+                                        ^
+  symbol:   class FileDocSource
+  location: package io
+FullTestProject5.java:474: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:492: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:511: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:531: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:575: error: cannot find symbol
+            index.SortedDocScore userDsA = new index.SortedDocScore(scoreA, docIdA, contentA);
+                 ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:575: error: cannot find symbol
+            index.SortedDocScore userDsA = new index.SortedDocScore(scoreA, docIdA, contentA);
+                                                    ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:576: error: cannot find symbol
+            index.SortedDocScore userDsB = new index.SortedDocScore(scoreB, docIdB, contentB);
+                 ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:576: error: cannot find symbol
+            index.SortedDocScore userDsB = new index.SortedDocScore(scoreB, docIdB, contentB);
+                                                    ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:578: error: cannot find symbol
+            TreeSet<index.SortedDocScore> userTree = new TreeSet<index.SortedDocScore>();
+                         ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:578: error: cannot find symbol
+            TreeSet<index.SortedDocScore> userTree = new TreeSet<index.SortedDocScore>();
+                                                                      ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:589: error: cannot find symbol
+            index.SortedDocScore userFirstDs = null;
+                 ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:590: error: cannot find symbol
+            for (index.SortedDocScore temp : userTree) {
+                      ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:618: error: cannot find symbol
+            index.SortedDocScore userDsA = new index.SortedDocScore(scoreA, docIdA, contentA);
+                 ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:618: error: cannot find symbol
+            index.SortedDocScore userDsA = new index.SortedDocScore(scoreA, docIdA, contentA);
+                                                    ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:619: error: cannot find symbol
+            index.SortedDocScore userDsB = new index.SortedDocScore(scoreB, docIdB, contentB);
+                 ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:619: error: cannot find symbol
+            index.SortedDocScore userDsB = new index.SortedDocScore(scoreB, docIdB, contentB);
+                                                    ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:621: error: cannot find symbol
+            TreeSet<index.SortedDocScore> userTree = new TreeSet<index.SortedDocScore>();
+                         ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:621: error: cannot find symbol
+            TreeSet<index.SortedDocScore> userTree = new TreeSet<index.SortedDocScore>();
+                                                                      ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:632: error: cannot find symbol
+            index.SortedDocScore userFirstDs = null;
+                 ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:633: error: cannot find symbol
+            for (index.SortedDocScore temp : userTree) {
+                      ^
+  symbol:   class SortedDocScore
+  location: package index
+FullTestProject5.java:661: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:692: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:746: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:748: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:778: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:780: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:810: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:812: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:840: error: cannot find symbol
+            io.DocSource userDs = new io.FileDocSource(FullTestProject5.pathToFolder);
+                                        ^
+  symbol:   class FileDocSource
+  location: package io
+FullTestProject5.java:842: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:844: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:846: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:906: error: cannot find symbol
+            io.DocSource userDs = new io.FileDocSource(FullTestProject5.pathToFolder);
+                                        ^
+  symbol:   class FileDocSource
+  location: package io
+FullTestProject5.java:908: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:910: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:912: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:974: error: cannot find symbol
+            io.DocSource userDs = new io.FileDocSource(FullTestProject5.pathToFolder);
+                                        ^
+  symbol:   class FileDocSource
+  location: package io
+FullTestProject5.java:976: error: cannot find symbol
+            tokenizer.Tokenizer userToken = new tokenizer.IndexingTokenizer();
+                                                         ^
+  symbol:   class IndexingTokenizer
+  location: package tokenizer
+FullTestProject5.java:978: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:980: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+FullTestProject5.java:1045: error: cannot find symbol
+            score.TermScoringFun userTf = new score.TFIDFScoringFun();
+                                                   ^
+  symbol:   class TFIDFScoringFun
+  location: package score
+FullTestProject5.java:1047: error: cannot find symbol
+            index.Index userIndex = new index.InvertedIndex(userDs, userToken, userTf);
+                                             ^
+  symbol:   class InvertedIndex
+  location: package index
+44 errors
+
+Your grade for this assignment: 0.0 out of 7.5
+If you think there is a grading mistake,
+Please consult the TA during office hours.
