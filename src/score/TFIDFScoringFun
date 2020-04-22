@@ -3,6 +3,11 @@ package score;
 
 import index.Index;
 
+/**
+ *
+ * @author loofoong
+ */ 
+ 
 public class TFIDFScoringFun implements TermScoringFun{
     private Index _index;
 
