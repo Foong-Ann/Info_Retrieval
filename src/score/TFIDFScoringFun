@@ -1,0 +1,25 @@
+
+package score;
+
+import index.Index;
+
+public class TFIDFScoringFun implements TermScoringFun{
+    private Index _index;
+
+    @Override
+    public void init(Index s) {
+        _index = s;
+    }
+
+    @Override
+    public double scoreToken(String term, int freq) {
+        //TFIDFd,t = (1 + log10(TFd,t)) * log10( N/DFt) (use Java's Math.log10() for this).
+        //Here TFd,t is the frequency (count) of term t in document d, DFt is the frequency (count) of the number of documents
+        //in the corpus (data set) that contain term t and N is the total number of documents.
+        int TFdt = freq;
+        int DFt = _index.getDocumentFreq(term);
+        int N = _index.getDocSource().getNumDocs();
+        return ((double)((1 + Math.log10(TFdt)) * Math.log10((double)N /(double) DFt))) ;
+    }
+    
+}
