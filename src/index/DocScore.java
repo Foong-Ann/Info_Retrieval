@@ -1,5 +1,10 @@
 package index;
 
+/**
+ *
+ * @author loofoong
+ */
+
 public abstract class DocScore {
 
 	protected double _score;
