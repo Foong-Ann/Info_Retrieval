@@ -33,19 +33,13 @@ public class TestSearch {
 				  							   new tokenizer.SimpleTokenizer(), 
 				  							   new score.TFScoringFun()));
 		
-		// TODO: Here is the solution implementation of all classes -- you will need to unzip the files
-		//       provided on Blackboard and provide the correct path as the argument to FileDocSource.
 		TestIndex(new soln.index.InvertedIndex(new soln.io.FileDocSource("files/Part1/awards_1994"), 
 											   new soln.tokenizer.IndexingTokenizer(), 
 											   new soln.score.TFIDFScoringFun()));
 
-		// TODO: Here is the same test with the implementation you are providing that should match the above soln.
-		//       (Do not rename classes... modulo the issue that you might store your files in a different
-		//        directory which can change, the following code should otherwise work when uncommented once
-		//        your project is complete.)
-//		TestIndex(new index.InvertedIndex(new io.FileDocSource("../Part1"), 
-//				                          new tokenizer.IndexingTokenizer(), 
-//										  new score.TFIDFScoringFun()));
+		TestIndex(new index.InvertedIndex(new io.FileDocSource("../Part1"), 
+			                          new tokenizer.IndexingTokenizer(), 
+						  new score.TFIDFScoringFun()));
 	}
 
 	public static void TestIndex(Index s) {
@@ -56,7 +50,7 @@ public class TestSearch {
 		long ms_end = System.currentTimeMillis();
 		System.out.println("\n>> Built " + s.getClass() + " index in " + (ms_end - ms_start) + " ms.");
 		
-		//System.out.println("\n>> Index contents: " + s);
+		System.out.println("\n>> Index contents: " + s);
 		
 		// Do a few queries
 		ms_start = System.currentTimeMillis();
