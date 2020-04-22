@@ -5,6 +5,11 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ *
+ * @author loofoong
+ */
+
 public class IndexingTokenizer implements Tokenizer{
     		// Note: can see following page for special characters in Java Regex:
 		//       https://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html
